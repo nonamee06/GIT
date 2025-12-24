@@ -1,0 +1,11 @@
+# На рабочем столе
+cd ~/Desktop
+mkdir GIT_III
+cd GIT_III
+
+# Задание
+git init
+echo "# Инструкция" > README.md
+git add . && git commit -m "version 1"
+# ... остальные коммиты
+git log --oneline --all  # КОПИРУЕТЕ ЭТОТ РЕЗУЛЬТАТ
