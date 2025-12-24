@@ -1,0 +1,10 @@
+# 1. Локально выполняете все шаги задания
+# 2. Добавляете удаленный репозиторий
+git remote add origin https://github.com/ваш_логин/GIT_III.git
+git push -u origin master
+
+# 3. Переключаетесь на предпоследний коммит
+git checkout HEAD~1  # version 2
+
+# 4. Смотрите историю
+git log --oneline --all
